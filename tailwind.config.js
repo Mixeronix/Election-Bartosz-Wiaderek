@@ -21,6 +21,7 @@ module.exports = {
 			fontSize: {
 				"14xl": "13rem",
 			},
+			screens: { xs: "440px" },
 		},
 	},
 	plugins: [],

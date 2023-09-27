@@ -61,7 +61,7 @@ export default function IdeasContainer() {
 			done: "Udało mi się rozpocząć działalność Szkolnej Grupy ratowniczej, chwilowo jesteśmy na etapie poszukiwania uczestników. Jeżeli jesteś chętny/a zapraszamy do mnie lub do pani Katarzyny Gołębiowskiej.",
 		},
 		{
-			title: "Modernizacja mediów szkoły",
+			title: "Modernizacja mediów szkolnych",
 			content:
 				"Na każdym kroku można zauważyć, że nasza szkoła staje się coraz bardziej nowoczesna. Wiele się u nas zmienia. Mimo to media, loga, grafiki pozostają niestety takie same. Uważam, że fajnie byłoby zostawić przeszłość w tyle i zacząć od nowa. Chcę  zmodernizować rzeczy takie jak: szkolna strona internetowa, logo szkoły, grafiki w mediach społecznościowych czy na plakatach. Te wszystkie małe rzeczy sprawią, że nasza szkoła stanie się jeszcze nowocześniejsza!",
 			icon: faMobileScreen,
@@ -94,14 +94,16 @@ export default function IdeasContainer() {
 					>
 						<motion.div className={`flex text-Black items-center gap-x-3 ${i % 2 == 0 ? "flex-row" : "flex-row-reverse"}`}>
 							<FontAwesomeIcon icon={idea.icon} className="h-7 aspect-square" />
-							<motion.h4 className={`text-3xl ${robotoFont900.className}`}>{idea.title}</motion.h4>
+							<motion.h4 className={`text-lg sm:text-2xl md:text-3xl xs:text-xl ${robotoFont900.className}`}>{idea.title}</motion.h4>
 						</motion.div>
 
-						<motion.p className={`text-Gray ${notoFont400.className} ${i % 2 == 0 ? "text-left" : "text-right"}`}>{idea.content}</motion.p>
+						<motion.p className={`text-Gray text-xs xs:text-sm md:text-base ${notoFont400.className} ${i % 2 == 0 ? "text-left" : "text-right"}`}>
+							{idea.content}
+						</motion.p>
 
 						<button
 							onClick={() => setOpenedIdea(i.toString())}
-							className={`w-fit px-5 py-1.5 border-2 border-Purple rounded-3xl transition-all text-Purple hover:text-Black ${robotoFont700.className}`}
+							className={`w-fit px-5 py-1.5 border-2 text-xs xs:text-sm md:text-base border-Purple rounded-3xl transition-all text-Purple hover:text-Black ${robotoFont700.className}`}
 						>
 							Czytaj więcej...
 						</button>
@@ -110,50 +112,52 @@ export default function IdeasContainer() {
 
 				<AnimatePresence>
 					{openedIdea && (
-						<motion.div className="flex items-center justify-center w-screen h-screen fixed top-0 left-0 z-20">
+						<motion.div className="flex items-center justify-center w-screen h-screen fixed top-0 left-0 right-0 bottom-0 z-20">
 							<motion.div
 								layoutId={openedIdea}
-								className={`flex flex-col gap-y-3 max-w-screen-lg items-start fixed bg-white rounded-3xl z-30 p-10`}
+								className={`flex flex-col gap-y-2 xs:gap-y-3 md:gap-y-5 lg:gap-y-7 max-w-screen-sm sm:max-w-screen-md lg:max-w-screen-lg items-start fixed bg-white rounded-3xl z-30 p-3 xs:p-5 sm:p-6 xs:gap-5 md:p-10`}
 								key={parseInt(openedIdea)}
 							>
 								<motion.div className={`flex text-Black items-center gap-x-3 w-full`}>
-									<FontAwesomeIcon icon={ideas[parseInt(openedIdea)].icon} className="h-7 aspect-square" />
-									<motion.h4 className={`text-3xl me-auto ${robotoFont900.className}`}>{ideas[parseInt(openedIdea)].title}</motion.h4>
+									<FontAwesomeIcon icon={ideas[parseInt(openedIdea)].icon} className="h-6 sm:h-7 aspect-square" />
+									<motion.h4 className={`text-lg sm:text-2xl md:text-3xl xs:text-xl me-auto ${robotoFont900.className}`}>
+										{ideas[parseInt(openedIdea)].title}
+									</motion.h4>
 									<FontAwesomeIcon
 										onClick={() => setOpenedIdea(null)}
 										icon={faClose}
-										className="h-5 text-Purple rounded-full border-2 border-Purple p-0.5 cursor-pointer aspect-square"
+										className="h-3 sm:h-5 text-Purple rounded-full border-2 border-Purple p-0.5 cursor-pointer aspect-square"
 									/>
 								</motion.div>
 
-								<motion.p className={`text-Gray ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].content}</motion.p>
+								<motion.p className={`text-Gray text-xs xs:text-sm md:text-base ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].content}</motion.p>
 
-								<motion.div className="w-full flex gap-x-5 pt-3 border-t-2">
+								<motion.div className="w-full flex flex-col sm:flex-row gap-x-1 md:gap-x-5 gap-y-1.5 xs:gap-y-2 pt-3 border-t-2">
 									<div className={`flex-1 ${ideas[parseInt(openedIdea)].done != undefined ? "" : "hidden"}`}>
 										<div className="flex items-center gap-x-2 text-Blue">
-											<FontAwesomeIcon icon={faCheck} className="h-5 aspect-square" />
+											<FontAwesomeIcon icon={faCheck} className="h-4 sm:h-5 aspect-square" />
 
-											<h5 className={`text-xl ${robotoFont700.className}`}>Zrobione</h5>
+											<h5 className={`text-base sm:text-xl lg:text-2xl xs:text-lg ${robotoFont700.className}`}>Zrobione</h5>
 										</div>
-										<p className={`text-sm ps-1 pt-1 ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].done}</p>
+										<p className={`text-xs md:text-sm md:ps-1 pt-1 ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].done}</p>
 									</div>
 
 									<div className={`flex-1 ${ideas[parseInt(openedIdea)].currently != undefined ? "" : "hidden"}`}>
 										<div className="flex items-center gap-x-2 text-Pink">
-											<FontAwesomeIcon icon={faList} className="h-5 aspect-square" />
+											<FontAwesomeIcon icon={faList} className="h-4 sm:h-5 aspect-square" />
 
-											<h5 className={`text-xl ${robotoFont700.className}`}>W trakcie</h5>
+											<h5 className={`text-base sm:text-xl lg:text-2xl xs:text-lg ${robotoFont700.className}`}>W trakcie</h5>
 										</div>
-										<p className={`text-sm ps-1 pt-1 ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].currently}</p>
+										<p className={`text-xs md:text-sm md:ps-1 pt-1 ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].currently}</p>
 									</div>
 
 									<div className={`flex-1 ${ideas[parseInt(openedIdea)].todo != undefined ? "" : "hidden"}`}>
 										<div className="flex items-center gap-x-2 text-Green">
-											<FontAwesomeIcon icon={faCalendar} className="h-5 aspect-square" />
+											<FontAwesomeIcon icon={faCalendar} className="h-4 sm:h-5 aspect-square" />
 
-											<h5 className={`text-xl ${robotoFont700.className}`}>Co dalej?</h5>
+											<h5 className={`text-base sm:text-xl lg:text-2xl xs:text-lg ${robotoFont700.className}`}>Co dalej?</h5>
 										</div>
-										<p className={`text-sm ps-1 pt-1 ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].todo}</p>
+										<p className={`text-xs md:text-sm md:ps-1 pt-1 ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].todo}</p>
 									</div>
 								</motion.div>
 							</motion.div>
