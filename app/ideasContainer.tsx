@@ -1,17 +1,18 @@
 "use client";
 
-import { IconDefinition, faBaseball, faCalendar, faCheck, faClose, faKitMedical, faLightbulb, faMobileScreen, faMusic } from "@fortawesome/free-solid-svg-icons";
+import { IconDefinition, faBaseball, faCalendar, faCheck, faClose, faKitMedical, faList, faMobileScreen, faMusic } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { AnimatePresence, motion } from "framer-motion";
 import { Noto_Sans_Javanese, Roboto } from "next/font/google";
 import { useState } from "react";
+
 type ideaDataType = {
 	title: string;
-	content: string;
+	content: string | JSX.Element;
 	icon: IconDefinition;
-	currently?: string;
-	done?: string;
-	todo?: string;
+	currently?: string | JSX.Element;
+	done?: string | JSX.Element;
+	todo?: string | JSX.Element;
 };
 
 const robotoFont900 = Roboto({
@@ -35,7 +36,7 @@ export default function IdeasContainer() {
 		{
 			title: "Reaktywacja imprez muzycznych",
 			content:
-				'Przez bardzo długi czas w naszej szkole regularnie odbywało się wiele wydarzeń muzycznych. Starsi uczniowie mogą jeszcze pamiętać: "Traugutt Rock Music Festiwal" czy "Serce Dla Traugutta". Uważam, że były to niesamowite eventy, dlatego chciałbym do nich powrócić. Reaktywacja będzie wiązała się ze sporą ilością przeszkód, przecie od lat nikt ich już nie organizował, ale zdecydowanie nie jest to niczym niemożliwym!',
+				'Przez bardzo długi czas w naszej szkole regularnie odbywało się wiele wydarzeń muzycznych. Starsi uczniowie mogą jeszcze pamiętać: "Traugutt Rock MusicFestiwal" czy "Serce Dla Traugutta". Uważam, że były to niesamowite eventy, dlatego chciałbym do nich powrócić. Reaktywacja będzie wiązała się ze sporą ilością przeszkód, przecie od lat nikt ich już nie organizował, ale zdecydowanie nie jest to niczym niemożliwym!',
 			icon: faMusic,
 			done: "Porozmawiać z nauczycielami organizującymi te wydarzenia w poprzednich latach. Wszyscy z nich bardzo chętnie pomogą w organizacji! Inaczej mówiąc wygląda na to, że uda się wrócić do tradycji sprzed lat!",
 			currently:
@@ -57,8 +58,17 @@ export default function IdeasContainer() {
 		{
 			title: "Modernizacja mediów szkoły",
 			content:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit.Amet enim nulla, facilis magni eum aspernatur nostrum repellat molestias impedit vel illo accusantium architecto commodi voluptate quia, eligendi explicabo necessitatibus tempore.",
+				"Na każdym kroku można zauważyć, że nasza szkoła staje się coraz bardziej nowoczesna. Wiele się u nas zmienia. Mimo to media, loga, grafiki pozostają niestety takie same. Uważam, że fajnie byłoby zostawić przeszłość w tyle i zacząć od nowa. Chcę  zmodernizować rzeczy takie jak: szkolna strona internetowa, logo szkoły, grafiki w mediach społecznościowych czy na plakatach. Te wszystkie małe rzeczy sprawią, że nasza szkoła stanie się jeszcze nowocześniejsza!",
 			icon: faMobileScreen,
+			done: (
+				<>
+					Od jakiegoś już czasu pracuje nad nową stroną internetową Traugutta (chwilowo dostępna tutaj: <a href="traugutt.bartoszwiaderek.com">link</a>). Ruszyły
+					również prace związane z wybieraniem nowego loga szkoły.
+				</>
+			),
+			currently:
+				"W tym momęcie pracuje nad dodawaniem kolejnych funkcjonalności na stronie. W przeciągu kilku dni ma zostać zakupiona nowa domena gdzie umieścimy stronę.",
+			todo: "W kwestii strony internetowej pozostało ją jedynie upublicznić, spopularyzować. Natomiast na chwile obecną planowane jest zrobienie konkursu, aby wyłonić nowe logo szkoły. Po czym umożliwimy zakup odzierzy z grafikami Traugtta.",
 		},
 		{
 			title: "Drużyny sportowe oraz zawdody",
@@ -82,7 +92,7 @@ export default function IdeasContainer() {
 							<motion.h4 className={`text-3xl ${robotoFont900.className}`}>{idea.title}</motion.h4>
 						</motion.div>
 
-						<motion.p className={`text-Gray line-clamp-5 ${notoFont400.className} ${i % 2 == 0 ? "text-left" : "text-right"}`}>{idea.content}</motion.p>
+						<motion.p className={`text-Gray ${notoFont400.className} ${i % 2 == 0 ? "text-left" : "text-right"}`}>{idea.content}</motion.p>
 
 						<button
 							onClick={() => setOpenedIdea(i.toString())}
@@ -115,28 +125,28 @@ export default function IdeasContainer() {
 
 								<motion.div className="w-full flex gap-x-5 pt-3 border-t-2">
 									<div className={`flex-1 ${ideas[parseInt(openedIdea)].done != undefined ? "" : "hidden"}`}>
-										<div className="flex items-center gap-x-2">
-											<FontAwesomeIcon icon={faCheck} className="h-5 aspect-square text-Pink" />
+										<div className="flex items-center gap-x-2 text-Blue">
+											<FontAwesomeIcon icon={faCheck} className="h-5 aspect-square" />
 
-											<h5 className={`text-Pink text-xl ${robotoFont700.className}`}>Zrobione</h5>
+											<h5 className={`text-xl ${robotoFont700.className}`}>Zrobione</h5>
 										</div>
 										<p className={`text-sm ps-1 pt-1 ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].done}</p>
 									</div>
 
 									<div className={`flex-1 ${ideas[parseInt(openedIdea)].currently != undefined ? "" : "hidden"}`}>
-										<div className="flex items-center gap-x-2">
-											<FontAwesomeIcon icon={faCheck} className="h-5 aspect-square text-Yellow" />
+										<div className="flex items-center gap-x-2 text-Pink">
+											<FontAwesomeIcon icon={faList} className="h-5 aspect-square" />
 
-											<h5 className={`text-Yellow text-xl ${robotoFont700.className}`}>W trakcie</h5>
+											<h5 className={`text-xl ${robotoFont700.className}`}>W trakcie</h5>
 										</div>
 										<p className={`text-sm ps-1 pt-1 ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].currently}</p>
 									</div>
 
 									<div className={`flex-1 ${ideas[parseInt(openedIdea)].todo != undefined ? "" : "hidden"}`}>
-										<div className="flex items-center gap-x-2">
-											<FontAwesomeIcon icon={faCalendar} className="h-5 aspect-square text-Green" />
+										<div className="flex items-center gap-x-2 text-Green">
+											<FontAwesomeIcon icon={faCalendar} className="h-5 aspect-square" />
 
-											<h5 className={`text-Green text-xl ${robotoFont700.className}`}>Co dalej?</h5>
+											<h5 className={`text-xl ${robotoFont700.className}`}>Co dalej?</h5>
 										</div>
 										<p className={`text-sm ps-1 pt-1 ${notoFont400.className}`}>{ideas[parseInt(openedIdea)].todo}</p>
 									</div>

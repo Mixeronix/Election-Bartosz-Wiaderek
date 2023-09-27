@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+    @apply font-bold text-Yellow hover:text-Pink transition-all
+}
