@@ -57,8 +57,9 @@ export default function Home() {
 				<div className="flex flex-col items-center gap-y-1.5">
 					<h1 className={`text-Red text-4xl text-Black ${robotoFont900.className}`}>Pomysły które wprowadze w życie</h1>
 					<p className={`text-lg text-center max-w-xl text-Gray ${robotoFont500.className}`}>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sint fugit, impedit perferendis dolorem, quas quaerat ut recusandae magni vel ratione
-						aspernatur velit hic ad officiis quo ex illo iure.
+						{/* To co mnie pcha do działania to pragnienie, aby wszyscy uczniowie jeszcze bardziej czuli się tak, jakby chodzili do najlepszego liceum w Częstochowie. */}
+						Nasza szkoła oraz my - jej uczniowie mamy ogromny potencjał. To kilka najważniejszych pomysłow, które chce wprowadzić w życie.
+						<br /> Z waszą pomocą wszystko jest możliwe!
 					</p>
 				</div>
 
