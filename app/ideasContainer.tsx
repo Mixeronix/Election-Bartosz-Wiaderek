@@ -48,12 +48,17 @@ export default function IdeasContainer() {
 			content:
 				"Lorem ipsum dolor sit amet consectetur adipisicing elit.Amet enim nulla, facilis magni eum aspernatur nostrum repellat molestias impedit vel illo accusantium architecto commodi voluptate quia, eligendi explicabo necessitatibus tempore.",
 			icon: faCalendar,
+			done: 'Na chwilę obecną zorganizowaliśmy "Dzień bez samochodu" oraz wsparłem organizacje kocenie dla naszych pierwszaków.',
+			todo: "Moim celem jest organizacja jakiegoś mniejszego wydarzenia (właśnie tego typu), raz na około 2 tygodnie. Planuje również, aby większe wydarzenia czy dyskoteki odbywały się raz w miesiącu, oczywiście o ile to możliwe.",
+			currently:
+				"Aktualnie jestem w trakcie organizowania wieczoru filmowego, który (narazie) ma się dobyć 20 października. W planach jest też kilka innych i oczywiście coroczny Rajd Traubeanów. Jeżeli macie jakiekolwiek pomysły, śmiało podchodźcie. Na pewno uda się je zrealizować!",
 		},
 		{
 			title: "Rozbudowa kółek szkolnych",
 			content:
 				"Lorem ipsum dolor sit amet consectetur adipisicing elit.Amet enim nulla, facilis magni eum aspernatur nostrum repellat molestias impedit vel illo accusantium architecto commodi voluptate quia, eligendi explicabo necessitatibus tempore.",
 			icon: faKitMedical,
+			done: "Udało mi się rozpocząć działalność Szkolnej Grupy ratowniczej, chwilowo jesteśmy na etapie poszukiwania uczestników. Jeżeli jesteś chętny/a zapraszamy do mnie lub do pani Katarzyny Gołębiowskiej.",
 		},
 		{
 			title: "Modernizacja mediów szkoły",
