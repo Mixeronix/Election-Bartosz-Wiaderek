@@ -58,12 +58,12 @@ export default function Home() {
 				<Image src="/wave-2.svg" width="1920" height="100" alt="" className="object-contain w-full scale-x-105" />
 			</div>
 
-			<div className="bg-White w-full flex flex-col items-center py-10 md:py-16 lg:py-20 gap-y-40 px-3 sm:px-5 md:px-8 lg:px-12">
+			<div className="bg-White w-full flex flex-col items-center py-10 md:py-16 lg:py-20 gap-y-16 sm:gap-y-20 md:gap-y-40 px-3 sm:px-5 md:px-8 lg:px-12">
 				<div className="flex flex-col items-center gap-y-1.5 text-center">
 					<h1 className={`text-Red lg:text-3xl xl:text-4xl text-lg xs:text-xl sm:text-2xl md:text-3xl text-Black ${robotoFont900.className}`}>
 						Pomysły które wprowadze w życie
 					</h1>
-					<p className={`xl:text-xl text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl text-center max-w-xl text-Gray ${robotoFont500.className}`}>
+					<p className={`xl:text-xl text-xs xs:text-sm sm:text-base max-w-lg md:text-lg lg:text-xl text-center md:max-w-xl text-Gray ${robotoFont500.className}`}>
 						Nasza szkoła oraz my - jej uczniowie - mamy ogromny potencjał. Z waszą pomocą wszystko jest możliwe! To kilka najważniejszych pomysłow, które wprowadzę
 						w życie.
 					</p>

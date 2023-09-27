@@ -85,7 +85,7 @@ export default function IdeasContainer() {
 
 	return (
 		<>
-			<div className="flex flex-col gap-y-12 w-full max-w-screen-2xl">
+			<div className="flex flex-col gap-y-16 sm:gap-y-20 w-full max-w-screen-2xl">
 				{ideas.map((idea: ideaDataType, i) => (
 					<motion.div
 						layoutId={i.toString()}
