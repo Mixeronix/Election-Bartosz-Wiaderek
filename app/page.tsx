@@ -84,7 +84,7 @@ export default function Home() {
 						<p
 							className={`xl:text-xl text-xs xs:text-sm sm:text-base max-w-lg md:text-lg lg:text-xl text-center md:max-w-xl text-Gray ${robotoFont500.className}`}
 						>
-							A to te pozostałe pomysły, mniejsze, ale równie ważne. To często małe rzeczy które chcielibyście lub ja chciałbym zmienić.
+							A to te pozostałe pomysły na mniejszą skalę, ale równie ważne. To często małe rzeczy które chcielibyście lub ja chciałbym zmienić.
 						</p>
 					</div>
 
