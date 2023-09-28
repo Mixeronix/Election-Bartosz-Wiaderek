@@ -45,7 +45,8 @@ export default function IdeasContainer() {
 		},
 		{
 			title: "Regularne wydarzenia i dyskoteki",
-			content: "Codzienność w szkole jest dość nudna, ale jak na wszystko, na to też jest sposób. ",
+			content:
+				'Codzienność w szkole jest dość nudna, ale jak na wszystko, na to też jest sposób. Chcę regularnie organizować mniejsze wydarzenia, typu "Dzień bez placeka", "Dzien Olewania systemu" czy',
 			icon: faCalendar,
 			done: 'Na chwilę obecną zorganizowaliśmy "Dzień bez samochodu" oraz wsparłem organizacje kocenie dla naszych pierwszaków.',
 			todo: "Moim celem jest organizacja jakiegoś mniejszego wydarzenia (właśnie tego typu), raz na około 2 tygodnie. Planuje również, aby większe wydarzenia czy dyskoteki odbywały się raz w miesiącu, oczywiście o ile to możliwe.",

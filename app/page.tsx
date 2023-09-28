@@ -25,11 +25,20 @@ const notoFont500 = Noto_Sans_Javanese({
 export default function Home() {
 	return (
 		<main className="flex flex-col gap-y-10 overflow-x-clip">
-			<div className="bg-White flex px-1 sm:px-3 md:px-5 md:py-40 py-20 sm:py-32 xl:py-60 2xl:py-72 items-center gap-x-12 justify-center">
-				<h1 className={`lg:text-7xl text-lg xs:text-2xl 2xl:text-8xl sm:text-4xl md:text-5xl text-center text-Black ${robotoFont700.className}`}>
+			<div className="bg-White flex flex-col gap-y-10 md:gap-y-16 lg:gap-y-20 px-1 sm:px-3 md:px-5 md:py-40 py-20 sm:py-32 xl:py-60 2xl:py-72 items-center gap-x-12 justify-center">
+				<h1 className={`lg:text-7xl text-xl xs:text-2xl 2xl:text-8xl sm:text-4xl md:text-5xl text-center text-Black ${robotoFont700.className}`}>
 					Jestem <span className={`text-LightYellow font-black ${robotoFont900.className}`}>Bartosz Wiaderek</span>
 					<br />i <span className={`text-Pink font-black ${robotoFont900.className}`}>kandyduje</span> na przewodniczącego
 				</h1>
+
+				<div className="flex items-center px-3 xs:px-5 sm:px-7 md:px-9 lg:px-12 lg:justify-center flex-col-reverse gap-y-7 gap-x-10 xl:gap-x-12 lg:flex-row relative h-fit justify-start">
+					<p
+						className={`text-Black max-w-md xl:text-2xl text-center lg:text-right text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl ${robotoFont700.className}`}
+					>
+						"Moim głównym celem jest sprawić aby każdy czuł się jak uczeń najlepszego liceum w Częstochowie!"
+					</p>
+					<Image src="/me.png" width="1000" height="1000" alt="" className="w-2/3 md:w-2/5 xl:w-1/3" />
+				</div>
 			</div>
 
 			<div className="flex flex-col w-full">
@@ -48,11 +57,6 @@ export default function Home() {
 						<br />
 						<br /> W szkolę najbardziej lubie gdy coś się dzieje, tak zacząłem angażować się w życie szkoły, organizacje wydarzeń. Teraz nie wyobrażam sobie żeby
 						było inaczej, życia bez działalności w szkole.
-						<div
-							className={`mt-2 md:mt-4 lg:mt-5 xl:mt-7 text-White xl:text-2xl text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl ${robotoFont500.className}`}
-						>
-							Moim głównym celem jest sprawić aby każdy czuł się jak uczeń najlepszego liceum w Częstochowie!
-						</div>
 					</p>
 				</div>
 				<Image src="/wave-2.svg" width="1920" height="100" alt="" className="object-contain w-full scale-x-105" />
