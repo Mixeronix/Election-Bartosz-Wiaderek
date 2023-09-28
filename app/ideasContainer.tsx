@@ -36,7 +36,7 @@ export default function IdeasContainer() {
 		{
 			title: "Reaktywacja imprez muzycznych",
 			content:
-				'Przez bardzo długi czas w naszej szkole regularnie odbywało się wiele wydarzeń muzycznych. Starsi uczniowie mogą jeszcze pamiętać: "Traugutt Rock MusicFestiwal" czy "Serce Dla Traugutta". Uważam, że były to niesamowite eventy, dlatego chciałbym do nich powrócić. Reaktywacja będzie wiązała się ze sporą ilością przeszkód, przecie od lat nikt ich już nie organizował, ale zdecydowanie nie jest to niczym niemożliwym!',
+				'Przez bardzo długi czas w naszej szkole regularnie odbywało się wiele wydarzeń muzycznych. Starsi uczniowie mogą jeszcze pamiętać: "Festyn w Traugucie", "Traugutt Rock Music Festiwal" czy "Serce Dla Traugutta". Uważam, że były to niesamowite eventy, dlatego chciałbym do nich powrócić. Reaktywacja będzie wiązała się ze sporą ilością przeszkód, przecie od lat nikt ich już nie organizował, ale zdecydowanie nie jest to niczym niemożliwym!',
 			icon: faMusic,
 			done: "Porozmawiać z nauczycielami organizującymi te wydarzenia w poprzednich latach. Wszyscy z nich bardzo chętnie pomogą w organizacji! Inaczej mówiąc wygląda na to, że uda się wrócić do tradycji sprzed lat!",
 			currently:
@@ -44,9 +44,8 @@ export default function IdeasContainer() {
 			todo: "Do przygotowania są oczywiście plany tych wydarzeń, ustalenie ich przebiegu, organizacja nagłośnienia itd. Narazie skupiamy się na stworzeniu zgranej paczki utalentowanych osób (ps. jeżeli jesteś zainteresowany/a można się zgłosić do mnie lub do profesora Bojanka)",
 		},
 		{
-			title: "Regularne wydarzenia",
-			content:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit.Amet enim nulla, facilis magni eum aspernatur nostrum repellat molestias impedit vel illo accusantium architecto commodi voluptate quia, eligendi explicabo necessitatibus tempore.",
+			title: "Regularne wydarzenia i dyskoteki",
+			content: "Codzienność w szkole jest dość nudna, ale jak na wszystko, na to też jest sposób. ",
 			icon: faCalendar,
 			done: 'Na chwilę obecną zorganizowaliśmy "Dzień bez samochodu" oraz wsparłem organizacje kocenie dla naszych pierwszaków.',
 			todo: "Moim celem jest organizacja jakiegoś mniejszego wydarzenia (właśnie tego typu), raz na około 2 tygodnie. Planuje również, aby większe wydarzenia czy dyskoteki odbywały się raz w miesiącu, oczywiście o ile to możliwe.",
@@ -56,8 +55,11 @@ export default function IdeasContainer() {
 		{
 			title: "Rozbudowa kółek szkolnych",
 			content:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit.Amet enim nulla, facilis magni eum aspernatur nostrum repellat molestias impedit vel illo accusantium architecto commodi voluptate quia, eligendi explicabo necessitatibus tempore.",
+				"Większość z nas ma jakieś pasje, niektórzy nawet kilka. Z tego powodu chcę drastycznie powiększyć ilosć kółek czy faktultetów do których można dołączyć. Moim celem jest aby każda osoba miała możliwość rozwiajania swoich pasji tu, u nas w szkole! (Jeżeli masz pasje która chciałbyś rozwijać również w szkole, zapraszam do mnie!)",
 			icon: faKitMedical,
+			currently:
+				"Aktualnie trwa poszukiwanie osób chętnych do szkolnej grupy ratowniczej. Szukam również osób chetnych do poprowadzenia szkolnej drużyny harcerskiej. Staram się również przyśpieszyć szkolnego zespołu muzycznego.",
+			todo: 'Planuję również założenie grupy tanecznej, SKS-ów (o czym więcej w "Drużyny sportowe oraz zawdody"), drużyny harcerskiej czy kółek naukowych. Chcę również rozwinąć działanie Kółka Szachowego, stworzyć szkolny ranking ELO.',
 			done: "Udało mi się rozpocząć działalność Szkolnej Grupy ratowniczej, chwilowo jesteśmy na etapie poszukiwania uczestników. Jeżeli jesteś chętny/a zapraszamy do mnie lub do pani Katarzyny Gołębiowskiej.",
 		},
 		{
@@ -67,8 +69,11 @@ export default function IdeasContainer() {
 			icon: faMobileScreen,
 			done: (
 				<>
-					Od jakiegoś już czasu pracuje nad nową stroną internetową Traugutta (chwilowo dostępna tutaj: <a href="traugutt.bartoszwiaderek.com">link</a>). Ruszyły
-					również prace związane z wybieraniem nowego loga szkoły.
+					Od jakiegoś już czasu pracuje nad nową stroną internetową Traugutta (chwilowo dostępna tutaj:{" "}
+					<a href="https://traugutt.bartoszwiaderek.com" target="blank">
+						link
+					</a>
+					). Ruszyły również prace związane z wybieraniem nowego loga szkoły.
 				</>
 			),
 			currently:
@@ -78,8 +83,11 @@ export default function IdeasContainer() {
 		{
 			title: "Drużyny sportowe oraz zawdody",
 			content:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit.Amet enim nulla, facilis magni eum aspernatur nostrum repellat molestias impedit vel illo accusantium architecto commodi voluptate quia, eligendi explicabo necessitatibus tempore.",
+				"Wielu z was uprawia różnorakie sporty. Niezależnie jaki jest to sport, uważam, że każdy powinien mieć możliwość uprawiania ich również w szkole. Chciałbym, żeby wszystkie osoby uprawiające swój ulubiony sport, miały możliwość rywalizacji na poziomie szkolnych oraz międzyszkolnym. Aby to osiągnąć chciałbym zorganizować SKS-y, o ile dany sport na to pozwala. Jeżeli sportu nie da się uprawiać w szkole, chciałbym przynajmniej  osoby uprawiające ten sam sport ze sobą.",
 			icon: faBaseball,
+			todo: 'Oprócz zakładania kolejnych drużyn sportowych w naszej szkole, planuje organizacje zawodów z najpopularniejszych sportów. Chciałbym aby przynajmniej niektóre z nich, obejmowały nie tylko naszą szkołe. Chciałbym wrócić do turniejów np. z "Norwidem" czy "Sienkiewiczem", tak jak kiedyś miało to miejsce.',
+			currently:
+				"Aktualnie w naszej szkoły działanie rozpoczyna drużyna piłki ręcznej. Jestem w trakcie rozmów z wuefistami na temat zakładania SKS oraz turniejów szkolnych czy międzyszkolnych.",
 		},
 	];
 
