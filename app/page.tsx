@@ -37,7 +37,7 @@ export default function Home() {
 					>
 						"Moim głównym celem jest sprawić aby każdy czuł się jak uczeń najlepszego liceum w Częstochowie!"
 					</p>
-					<Image src="/me.png" width="1000" height="1000" alt="" className="w-2/3 md:w-2/5 xl:w-1/3" />
+					<Image src="/me.png" width="1000" height="1000" alt="" className="w-2/3 md:w-1/2 xl:w-2/5" />
 				</div>
 			</div>
 
