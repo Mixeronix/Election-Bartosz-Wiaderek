@@ -1,12 +1,12 @@
-import { IconDefinition, faBaseball, faCalendar, faCaretDown, faCaretRight, faCheck, faKitMedical, faList, faMobileScreen, faMusic } from "@fortawesome/free-solid-svg-icons";
+import { IconDefinition, faCalendar, faCaretRight, faCheck, faList } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Noto_Sans_Javanese, Roboto } from "next/font/google";
 import { useState } from "react";
 
-type ideaDataType = {
+type otherIdeaDataType = {
 	title: string;
-	content: string | JSX.Element;
+	content?: string | JSX.Element;
 	icon: IconDefinition;
 	currently?: string | JSX.Element;
 	done?: string | JSX.Element;
@@ -22,7 +22,7 @@ const notoFont400 = Noto_Sans_Javanese({
 	subsets: ["latin"],
 });
 
-export default function IdeaTile(props: { idea: ideaDataType }) {
+export default function IdeaTile(props: { idea: otherIdeaDataType }) {
 	const [opened, setOpened] = useState(false);
 
 	return (
@@ -34,7 +34,7 @@ export default function IdeaTile(props: { idea: ideaDataType }) {
 				<FontAwesomeIcon
 					onClick={() => setOpened((old) => !old)}
 					icon={faCaretRight}
-					className={`h-5 ms-auto aspect-square cursor-pointer transition-all duration-300 ${opened ? "rotate-90" : ""}`}
+					className={`h-5 ms-auto aspect-square cursor-pointer transition-all duration-300 ${opened ? "rotate-90" : ""} ${props.idea.content ?? "hidden"}`}
 				/>
 			</motion.div>
 
@@ -59,7 +59,9 @@ export default function IdeaTile(props: { idea: ideaDataType }) {
 						transition={{
 							duration: 0.2,
 						}}
-						className="w-full text-Gray flex flex-col xs:flex-row gap-x-2 md:gap-x-5 gap-y-2 pt-3 border-t-2 border-Black/50"
+						className={`w-full text-Gray flex flex-col xs:flex-row gap-x-2 md:gap-x-5 gap-y-2 pt-3 border-t-2 border-Black/50 ${
+							(props.idea.done || props.idea.currently || props.idea.todo) ?? "hidden"
+						}`}
 					>
 						<div className={`flex-1 ${props.idea.done != undefined ? "" : "hidden"}`}>
 							<div className="flex items-center gap-x-2 text-Blue">

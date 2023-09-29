@@ -18,9 +18,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import IdeaTile from "./ideaTile";
 
-type ideaDataType = {
+type otherIdeaDataType = {
 	title: string;
-	content: string | JSX.Element;
+	content?: string | JSX.Element;
 	icon: IconDefinition;
 	currently?: string | JSX.Element;
 	done?: string | JSX.Element;
@@ -28,30 +28,25 @@ type ideaDataType = {
 };
 
 export default function OtherIdeasContainer() {
-	const ideas: ideaDataType[] = [
+	const ideas: otherIdeaDataType[] = [
 		{
 			title: "Traugutt TV",
-			content: "",
 			icon: faTv,
 		},
 		{
 			title: "Sklep ze szkolną odzierzą",
-			content: "",
 			icon: faTshirt,
 		},
 		{
 			title: "Dyskoteki tematyczne",
-			content: "",
 			icon: faIcons,
 		},
 		{
 			title: "Wydarzenia dla absolwentów",
-			content: "",
 			icon: faGraduationCap,
 		},
 		{
 			title: "Kapsuła czasu",
-			content: "",
 			icon: faClock,
 		},
 		{
@@ -64,7 +59,6 @@ export default function OtherIdeasContainer() {
 		},
 		{
 			title: "Wykorzystanie działki w olszytnie",
-			content: "",
 			icon: faTent,
 		},
 		{
@@ -77,27 +71,22 @@ export default function OtherIdeasContainer() {
 		},
 		{
 			title: "Lusterka w szatniach",
-			content: "",
 			icon: faRestroom,
 		},
 		{
 			title: "Współpraca z politechniką",
-			content: "",
 			icon: faHandshake,
 		},
 		{
 			title: "Markizy na patio",
-			content: "",
 			icon: faUmbrellaBeach,
 		},
 		{
 			title: "Regularne ankiety",
-			content: "",
 			icon: faListCheck,
 		},
 		{
 			title: "E-Biblioteka szkolna",
-			content: "",
 			icon: faBook,
 		},
 	];
@@ -105,7 +94,7 @@ export default function OtherIdeasContainer() {
 	return (
 		<>
 			<div className="flex flex-col gap-y-2 sm:gap-y-3 w-full max-w-screen-lg 2xl:max-w-screen-xl mx-auto bg-Blue/20 px-4 sm:px-5 md:px-7 py-3 sm:py-4 md:py-5 lg:p-10 rounded-2xl">
-				{ideas.map((idea: ideaDataType, i) => (
+				{ideas.map((idea: otherIdeaDataType, i) => (
 					<>
 						<IdeaTile key={i} idea={idea} />
 						<div className={`h-0.5 w-full bg-Black/80 ${i + 1 == ideas.length ? "hidden" : ""}`}></div>
