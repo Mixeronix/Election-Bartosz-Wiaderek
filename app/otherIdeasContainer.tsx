@@ -10,6 +10,7 @@ import {
 	faHandshake,
 	faIcons,
 	faListCheck,
+	faPizzaSlice,
 	faRestroom,
 	faTent,
 	faTshirt,
@@ -34,6 +35,10 @@ export default function OtherIdeasContainer() {
 			icon: faTv,
 		},
 		{
+			title: "Pizza friday",
+			icon: faPizzaSlice,
+		},
+		{
 			title: "Sklep ze szkolną odzierzą",
 			icon: faTshirt,
 		},
@@ -53,7 +58,7 @@ export default function OtherIdeasContainer() {
 			title: "Pufy na stołówce",
 			content:
 				"Tego pomysłu nikomu przedstawiać nie trzeba. Wiekszość z nas słyszaja go już wielokrotnie. Pufy na stołówce to rzecz która od zawsze powinna się tam znajdować. Na szczęście mam dla wszystkich dobrą informacje. Pufy są zamówione i już do nas jadą!",
-			done: "",
+			done: "Pufy zostały już zamówione, i do nas jadą! Dosłownie kilka dni temu dyrektor obejrzał projekt, można powiedzieć, że wszystko już gotowe!",
 			todo: "Niedługo będziemy mogli je zobaczyć na świetlicy! Teraz to już tylko kwestia czasu!",
 			icon: faCouch,
 		},
@@ -74,8 +79,10 @@ export default function OtherIdeasContainer() {
 			icon: faRestroom,
 		},
 		{
-			title: "Współpraca z politechniką",
+			title: "Współpraca z Politechniką Częstochowską",
 			icon: faHandshake,
+			content:
+				"Nie wszyscy nawet wiedzą, że coś takiego istnieje! Od kilku lat nasza szkoła ma podpisaną współpracę z Politechniką Częstochowską, niestety zupełnie z tego nie korzystamy. Moim pomysłem jest tą współpracę nieco ożywić. W ramach niej możemy uczestniczyć w różnego rodzaju projektach, wykładach czy lekcjach pokazowych. Dzięki tej współpracy będzie możliwe wykorzystanie sali sportowej Politechniki podczas wydarzeń sportowych w naszej szkole (będzie to szczególne przydatne podczas międzyszkolnych zawodach, które planujemy zorganizować).",
 		},
 		{
 			title: "Markizy na patio",
