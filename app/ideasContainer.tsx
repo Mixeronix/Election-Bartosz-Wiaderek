@@ -1,6 +1,6 @@
 "use client";
 
-import { IconDefinition, faBaseball, faCalendar, faCheck, faClose, faKitMedical, faList, faMobileScreen, faMusic, faTv } from "@fortawesome/free-solid-svg-icons";
+import { IconDefinition, faBaseball, faCalendar, faCheck, faClose, faKitMedical, faList, faMobileScreen, faMusic } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { AnimatePresence, motion } from "framer-motion";
 import { Noto_Sans_Javanese, Roboto } from "next/font/google";
@@ -89,11 +89,6 @@ export default function IdeasContainer() {
 			todo: 'Oprócz zakładania kolejnych drużyn sportowych w naszej szkole, planuje organizacje zawodów z najpopularniejszych sportów. Chciałbym aby przynajmniej niektóre z nich, obejmowały nie tylko naszą szkołe. Chciałbym wrócić do turniejów np. z "Norwidem" czy "Sienkiewiczem", tak jak kiedyś miało to miejsce.',
 			currently:
 				"Aktualnie w naszej szkoły działanie rozpoczyna drużyna piłki ręcznej. Jestem w trakcie rozmów z wuefistami na temat zakładania SKS oraz turniejów szkolnych czy międzyszkolnych.",
-		},
-		{
-			title: "Traugutt TV",
-			content: "",
-			icon: faTv,
 		},
 	];
 

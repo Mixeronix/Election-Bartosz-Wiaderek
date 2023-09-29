@@ -13,6 +13,7 @@ import {
 	faRestroom,
 	faTent,
 	faTshirt,
+	faTv,
 	faUmbrellaBeach,
 } from "@fortawesome/free-solid-svg-icons";
 import IdeaTile from "./ideaTile";
@@ -28,6 +29,11 @@ type ideaDataType = {
 
 export default function OtherIdeasContainer() {
 	const ideas: ideaDataType[] = [
+		{
+			title: "Traugutt TV",
+			content: "",
+			icon: faTv,
+		},
 		{
 			title: "Sklep ze szkolną odzierzą",
 			content: "",
