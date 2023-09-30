@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 a {
-    @apply font-bold text-Yellow hover:text-Pink transition-all
+    @apply font-bold text-Pink hover:text-Green transition-all
 }

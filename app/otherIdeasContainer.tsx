@@ -10,8 +10,6 @@ import {
 	faHandshake,
 	faIcons,
 	faListCheck,
-	faPizzaSlice,
-	faRestroom,
 	faTent,
 	faTshirt,
 	faTv,
@@ -33,10 +31,18 @@ export default function OtherIdeasContainer() {
 		{
 			title: "Traugutt TV",
 			icon: faTv,
-		},
-		{
-			title: "Pizza friday",
-			icon: faPizzaSlice,
+			content: (
+				<>
+					Traugutt TV jest odpowiednikiem telewizji szkolnej. Chcę aby na YT (podobnie jak na TikToku), pojawiały się filmy z wszystkich wydarzeń szkolnych. Planuję
+					również nagrywanie filmów podobnych do "Matura to bzdura" czy równych mini-turnieji. Wszystkie filmy dostnępne na szkolnym{" "}
+					<a href="https://www.youtube.com/@IILOTraugutt" target="_blank">
+						YouTube!
+					</a>{" "}
+					Jeżeli masz pomysł lub pytania smiało można podejść do mnie lub do Filipa Banasia z klasy 2B.
+				</>
+			),
+			done: "Gotowa jest już cała ekipa, która będzie prowadziła naszą szkolną 'telewizję'. Mamy przygotowane pomysły na kilka pierszych filmów. Nagraliśmy już kilka pierwszych filmów, aktualnie dostępnych na szkolnym YouTube.",
+			todo: "Dalej planujemy regularne wstawianie filmów, oraz stream'owanie na żywo uroczystości szkolnych. Potem będzie moliwość obejrzenia ich, pokazania rodzicie. Dzięki temu będzie zostawał ślad po cięzkiej pracy naszych uczniów.",
 		},
 		{
 			title: "Sklep ze szkolną odzierzą",
@@ -73,10 +79,6 @@ export default function OtherIdeasContainer() {
 			currently: "Skontaktowałem się z firmą zajmującą wynajmującą i montującą dystrybutory z wodą.",
 			todo: "Pozostaje już tylko rozmowa z radą rodziców, zdobycie funduszy i sam montaż.",
 			icon: faBottleWater,
-		},
-		{
-			title: "Lusterka w szatniach",
-			icon: faRestroom,
 		},
 		{
 			title: "Współpraca z Politechniką Częstochowską",
