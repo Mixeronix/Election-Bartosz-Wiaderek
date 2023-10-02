@@ -45,7 +45,7 @@ export default function OtherIdeasContainer() {
 			todo: "Dalej planujemy regularne wstawianie filmów, oraz stream'owanie na żywo uroczystości szkolnych. Potem będzie moliwość obejrzenia ich, pokazania rodzicie. Dzięki temu będzie zostawał ślad po cięzkiej pracy naszych uczniów.",
 		},
 		{
-			title: "Sklep ze szkolną odzierzą",
+			title: "Sklep ze szkolną odzieżą",
 			icon: faTshirt,
 		},
 		{
@@ -59,6 +59,8 @@ export default function OtherIdeasContainer() {
 		{
 			title: "Kapsuła czasu",
 			icon: faClock,
+			content:
+				"Aktualnie liceum trwa 4 lata, przez ten zmienia sie tak wiele... Z tego powodu chciałbym wprowadzić nowątradycje do naszej szkoły. Chciałbym, aby na początku nauki, kadżda klasa przygotowała rzeczy dla nich ważne, napisała list. Wszystkie te rzeczy będą składanie w jednej dużej kapsule czasu. Pod konieć nauki, w klasie czwartej, kapsuła będzie otwierana, a wszystkie rzeczy w niej zawarte, wrócą do klas. Wydaje mi się, że taki powrót do początków będzie fantastycznym zakończeniem nauki w liceum!",
 		},
 		{
 			title: "Pufy na stołówce",
