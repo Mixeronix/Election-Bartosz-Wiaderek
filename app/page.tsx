@@ -52,12 +52,11 @@ export default function Home() {
 					<p
 						className={`xl:text-xl text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl text-LightBlue leading-relaxed max-w-sm xs:max-w-lg md:max-w-screen-md z-10 px-6 xs:px-8 sm:px-10 md:px-12 lg:px-16 ${notoFont500.className}`}
 					>
-						Cześć, nazywam się Bartek, jestem w klasie 2C (mat-fiz)
-						<br /> Na codzień dużo czasu poświęcam na różnego rodzaju sport <br />
-						oraz programowanie (w końcu tak powstała ta strona 😅).
+						Cześć, nazywam się Bartek, jestem w klasie 2C (matematyka i fizyka).
 						<br />
-						<br /> W szkolę najbardziej lubie gdy coś się dzieje, tak zacząłem angażować się w życie szkoły, organizacje wydarzeń. Teraz nie wyobrażam sobie żeby
-						było inaczej, życia bez działalności w szkole.
+						Na co dzień dużo czasu poświęcam różnym rodzajom sportu oraz programowaniu (w końcu to dzięki temu powstała ta strona 😅).
+						<br /> <br /> W szkole najbardziej lubię, gdy coś się dzieje, dlatego zacząłem angażować się w życie szkoły i organizowanie wydarzeń. Teraz nie
+						wyobrażam sobie, że mogłoby być inaczej, życie bez aktywności szkolnej.
 					</p>
 				</div>
 				<Image src="/wave-2.svg" width="1920" height="100" alt="" className="object-contain w-full scale-x-105" />
@@ -66,11 +65,11 @@ export default function Home() {
 			<div className="bg-White w-full flex flex-col items-center py-10 md:py-16 lg:py-20 gap-y-16 sm:gap-y-20 md:gap-y-40 px-3 sm:px-5 md:px-8 lg:px-12">
 				<div className="flex flex-col items-center gap-y-1.5 text-center">
 					<h1 className={`text-Red lg:text-3xl xl:text-4xl text-lg xs:text-xl sm:text-2xl md:text-3xl text-Black ${robotoFont900.className}`}>
-						Pomysły które wprowadze w życie
+						Pomysły, które wprowadzę w życie{" "}
 					</h1>
 					<p className={`xl:text-xl text-xs xs:text-sm sm:text-base max-w-lg md:text-lg lg:text-xl text-center md:max-w-xl text-Gray ${robotoFont500.className}`}>
-						Nasza szkoła oraz my - jej uczniowie - mamy ogromny potencjał. Z waszą pomocą wszystko jest możliwe! To kilka najważniejszych pomysłow, które wprowadzę
-						w życie.
+						Nasza szkoła oraz my, jej uczniowie, posiadamy ogromny potencjał. Z waszą pomocą wszystko jest możliwe! Oto kilka najważniejszych pomysłów, które
+						wprowadzę w życie.
 					</p>
 				</div>
 
@@ -84,7 +83,7 @@ export default function Home() {
 						<p
 							className={`xl:text-xl text-xs xs:text-sm sm:text-base max-w-lg md:text-lg lg:text-xl text-center md:max-w-xl text-Gray ${robotoFont500.className}`}
 						>
-							A to te pozostałe pomysły na mniejszą skalę, ale równie ważne. To często małe rzeczy które chcielibyście lub ja chciałbym zmienić.
+							A to te pozostałe pomysły na mniejszą skalę, ale równie ważne. To często drobne zmiany, które chcielibyśmy wprowadzić.
 						</p>
 					</div>
 

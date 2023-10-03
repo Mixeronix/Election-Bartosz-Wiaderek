@@ -36,59 +36,59 @@ export default function IdeasContainer() {
 		{
 			title: "Reaktywacja imprez muzycznych",
 			content:
-				'Przez bardzo długi czas w naszej szkole regularnie odbywało się wiele wydarzeń muzycznych. Starsi uczniowie mogą jeszcze pamiętać: "Traugutt Rock Music Festiwal" czy "Serce Dla Traugutta". Uważam, że były to niesamowite eventy, dlatego chciałbym do nich powrócić. Reaktywacja będzie wiązała się ze sporą ilością przeszkód, przecie od lat nikt ich już nie organizował, ale zdecydowanie nie jest to niczym niemożliwym!',
+				"Przez bardzo długi czas w naszej szkole regularnie odbywało się wiele wydarzeń muzycznych. Starsi uczniowie mogą jeszcze pamiętać: 'Traugutt Rock Music Festival' czy 'Serce Dla Traugutta'. Uważam, że były to niesamowite eventy, dlatego chciałbym do nich powrócić. Reaktywacja będzie wiązała się ze sporą ilością przeszkód, przecież od lat nikt ich już nie organizował, ale zdecydowanie nie jest to niczym niemożliwym!",
 			icon: faMusic,
-			done: "Porozmawiać z nauczycielami organizującymi te wydarzenia w poprzednich latach. Wszyscy z nich bardzo chętnie pomogą w organizacji! Inaczej mówiąc wygląda na to, że uda się wrócić do tradycji sprzed lat!",
+			done: "Porozmawiać z nauczycielami organizującymi te wydarzenia w poprzednich latach. Wszyscy z nich bardzo chętnie pomogą w organizacji! Inaczej mówiąc, wygląda na to, że uda się wrócić do tradycji sprzed lat!",
 			currently:
-				"W trakcie jest tworzenie szkolnego zespołu muzycznego, który jest oczywiście kluczowy dla powodzenia obydwóch wydarzeń. Zaraz po postaniu takiego zespołu bierzemy się do pracy!",
-			todo: "Do przygotowania są oczywiście plany tych wydarzeń, ustalenie ich przebiegu, organizacja nagłośnienia itd. Narazie skupiamy się na stworzeniu zgranej paczki utalentowanych osób (ps. jeżeli jesteś zainteresowany/a można się zgłosić do mnie lub do profesora Bojanka)",
+				"W trakcie jest tworzenie szkolnego zespołu muzycznego, który jest oczywiście kluczowy dla powodzenia obydwóch wydarzeń. Zaraz po utworzeniu takiego zespołu bierzemy się do pracy!",
+			todo: "Do przygotowania są oczywiście plany tych wydarzeń, ustalenie ich przebiegu, organizacja nagłośnienia itd. Na razie skupiamy się na stworzeniu zgranej grupy utalentowanych osób (ps. jeżeli jesteś zainteresowany/a, możesz się zgłosić do mnie lub do profesora Bojanka).",
 		},
 		{
 			title: "Regularne wydarzenia i dyskoteki",
 			content:
-				'Codzienność w szkole jest dość nudna, ale jak na wszystko, na to też jest sposób. Chcę regularnie organizować mniejsze wydarzenia, typu "Dzień bez placeka", "Dzień Olewania systemu" czy "Dzień w piżamach". Planuję również organizacje "Festynu w Traugucie", festiwalu "Trauwood", rajdów rowerowych oraz w miare możliwości regularnych wieczorów filmowych. Będę dążył do tego, aby wydarzenia tego typu odbywały się jak najczęściej!',
+				"Codzienność w szkole jest dość nudna, ale jak na wszystko, na to też jest sposób. Chcę regularnie organizować mniejsze wydarzenia, takie jak 'Dzień bez placówek', 'Dzień Olewania Systemu' czy 'Dzień w Piżamach'. Planuję również organizację 'Festynu w Traugucie', festiwalu 'Trauwood', rajdów rowerowych oraz w miarę możliwości regularnych wieczorów filmowych. Będę dążył do tego, aby wydarzenia tego typu odbywały się jak najczęściej!",
 			icon: faCalendar,
-			done: 'Na chwilę obecną zorganizowaliśmy "Dzień bez samochodu" oraz wsparłem organizacje kocenie dla naszych pierwszaków.',
-			todo: "Moim celem jest organizacja jakiegoś mniejszego wydarzenia (właśnie tego typu), raz na około 2 tygodnie. Planuje również, aby większe wydarzenia czy dyskoteki odbywały się raz w miesiącu, oczywiście o ile to możliwe.",
+			done: "Na chwilę obecną zorganizowaliśmy 'Dzień bez samochodu' oraz wesprzeliśmy organizację kocenia dla naszych pierwszaków.",
+			todo: "Moim celem jest organizacja jakiegoś mniejszego wydarzenia (właśnie tego typu), raz na około 2 tygodnie. Planuję również, aby większe wydarzenia czy dyskoteki odbywały się raz w miesiącu, oczywiście o ile to możliwe.",
 			currently:
-				"Aktualnie jestem w trakcie organizowania wieczoru filmowego, który (narazie) ma się dobyć 20 października. W planach jest też kilka innych i oczywiście coroczny Rajd Traubeanów. Jeżeli macie jakiekolwiek pomysły, śmiało podchodźcie. Na pewno uda się je zrealizować!",
+				"Aktualnie jestem w trakcie organizowania wieczoru filmowego, który (na razie) ma się odbyć 20 października. W planach jest też kilka innych wydarzeń i oczywiście coroczny Rajd Traubeanów. Jeżeli macie jakiekolwiek pomysły, śmiało podchodźcie. Na pewno uda się je zrealizować!",
 		},
 		{
 			title: "Rozbudowa kółek szkolnych",
 			content:
-				"Większość z nas ma jakieś pasje, niektórzy nawet kilka. Z tego powodu chcę drastycznie powiększyć ilosć kółek czy faktultetów do których można dołączyć. Moim celem jest aby każda osoba miała możliwość rozwiajania swoich pasji tu, u nas w szkole! (Jeżeli masz pasje która chciałbyś rozwijać również w szkole, zapraszam do mnie!)",
+				"Większość z nas ma jakieś pasje, niektórzy nawet kilka. Z tego powodu chcę drastycznie zwiększyć ilość kółek czy fakultetów, do których można dołączyć. Moim celem jest, aby każda osoba miała możliwość rozwijania swoich pasji tu, u nas w szkole! (Jeżeli masz pasję, którą chciałbyś rozwijać również w szkole, zapraszam do mnie!)",
 			icon: faKitMedical,
 			currently:
-				"Aktualnie trwa poszukiwanie osób chętnych do szkolnej grupy ratowniczej. Szukam również osób chetnych do poprowadzenia szkolnej drużyny harcerskiej. Staram się również przyśpieszyć szkolnego zespołu muzycznego.",
-			todo: 'Planuję również założenie grupy tanecznej, drużyny harcerskiej, koła teatralnego, koła szachowego, SKS-ów (o czym więcej w "Drużyny sportowe oraz zawdody") czy kółek naukowych. Chcę również rozwinąć działanie Kółka Szachowego, stworzyć szkolny ranking ELO.',
-			done: "Udało mi się rozpocząć działalność Szkolnej Grupy ratowniczej, chwilowo jesteśmy na etapie poszukiwania uczestników. Jeżeli jesteś chętny/a zapraszamy do mnie lub do pani Katarzyny Gołębiowskiej.",
+				"Aktualnie trwa poszukiwanie osób chętnych do szkolnej grupy ratowniczej. Szukam również osób chętnych do poprowadzenia szkolnej drużyny harcerskiej. Staram się również przyśpieszyć rozwój szkolnego zespołu muzycznego.",
+			todo: 'Planuję również założenie grupy tanecznej, drużyny harcerskiej, koła teatralnego, koła szachowego, SKS-ów (o czym więcej w "Drużyny sportowe oraz zawody") czy kółek naukowych. Chcę również rozwinąć działanie Kółka Szachowego oraz stworzyć szkolny ranking ELO.',
+			done: "Udało mi się rozpocząć działalność Szkolnej Grupy Ratowniczej, chwilowo jesteśmy na etapie poszukiwania uczestników. Jeżeli jesteś chętny/a, zapraszamy do mnie lub do Pani Katarzyny Gołębiowskiej.",
 		},
 		{
 			title: "Modernizacja mediów szkolnych",
 			content:
-				"Na każdym kroku można zauważyć, że nasza szkoła staje się coraz bardziej nowoczesna. Wiele się u nas zmienia. Mimo to media, loga, grafiki pozostają niestety takie same. Uważam, że fajnie byłoby zostawić przeszłość w tyle i zacząć od nowa. Chcę  zmodernizować rzeczy takie jak: szkolna strona internetowa, logo szkoły, grafiki w mediach społecznościowych czy na plakatach. Te wszystkie małe rzeczy sprawią, że nasza szkoła stanie się jeszcze nowocześniejsza!",
+				"Na każdym kroku można zauważyć, że nasza szkoła staje się coraz bardziej nowoczesna. Wiele się u nas zmienia. Mimo to media, logo, grafiki pozostają niestety takie same. Uważam, że fajnie byłoby zostawić przeszłość w tyle i zacząć od nowa. Chcę zmodernizować rzeczy takie jak szkolna strona internetowa, logo szkoły, grafiki w mediach społecznościowych czy na plakatach. Te wszystkie małe rzeczy sprawią, że nasza szkoła stanie się jeszcze nowocześniejsza!",
 			icon: faMobileScreen,
 			done: (
 				<>
-					Od jakiegoś już czasu pracuje nad nową stroną internetową Traugutta (chwilowo dostępna tutaj:{" "}
-					<a href="https://traugutt.bartoszwiaderek.com" target="blank">
+					Od jakiegoś już czasu pracuję nad nową stroną internetową Traugutta (chwilowo dostępna tutaj:{" "}
+					<a href="https://traugutt.bartoszwiaderek.com" target="_blank">
 						link
 					</a>
-					). Ruszyły również prace związane z wybieraniem nowego loga szkoły.
+					). Ruszyły również prace związane z wybieraniem nowego logo szkoły.
 				</>
 			),
 			currently:
-				"W tym momęcie pracuje nad dodawaniem kolejnych funkcjonalności na stronie. W przeciągu kilku dni ma zostać zakupiona nowa domena gdzie umieścimy stronę.",
-			todo: "W kwestii strony internetowej pozostało ją jedynie upublicznić, spopularyzować. Natomiast na chwile obecną planowane jest zrobienie konkursu, aby wyłonić nowe logo szkoły. Po czym umożliwimy zakup odzierzy z grafikami Traugtta.",
+				"W tym momencie pracuję nad dodawaniem kolejnych funkcjonalności na stronie. W przeciągu kilku dni ma zostać zakupiona nowa domena, na której umieścimy stronę.",
+			todo: "W kwestii strony internetowej pozostało ją jedynie upublicznić i spopularyzować. Natomiast na chwilę obecną planowane jest zrobienie konkursu, aby wyłonić nowe logo szkoły. Następnie umożliwimy zakup odzieży z grafikami Traugutta.",
 		},
 		{
-			title: "Drużyny sportowe oraz zawdody",
+			title: "Drużyny sportowe oraz zawody",
 			content:
-				"Wielu z was uprawia różnorakie sporty. Niezależnie jaki jest to sport, uważam, że każdy powinien mieć możliwość uprawiania ich również w szkole. Chciałbym, żeby wszystkie osoby uprawiające swój ulubiony sport, miały możliwość rywalizacji na poziomie szkolnych oraz międzyszkolnym. Aby to osiągnąć chciałbym zorganizować SKS-y, o ile dany sport na to pozwala. Jeżeli sportu nie da się uprawiać w szkole, chciałbym przynajmniej  osoby uprawiające ten sam sport ze sobą.",
+				"Wielu z was uprawia różnorakie sporty. Niezależnie jaki jest to sport, uważam, że każdy powinien mieć możliwość uprawiania ich również w szkole. Chciałbym, żeby wszystkie osoby uprawiające swój ulubiony sport, miały możliwość rywalizacji na poziomie szkolnych oraz międzyszkolnym. Aby to osiągnąć, chciałbym zorganizować SKS-y, o ile dany sport na to pozwala. Jeżeli sportu nie da się uprawiać w szkole, chciałbym przynajmniej połączyć osoby uprawiające ten sam sport ze sobą.",
 			icon: faBaseball,
-			todo: 'Oprócz zakładania kolejnych drużyn sportowych w naszej szkole, planuje organizacje zawodów z najpopularniejszych sportów. Chciałbym aby przynajmniej niektóre z nich, obejmowały nie tylko naszą szkołe. Chciałbym wrócić do turniejów np. z "Norwidem" czy "Sienkiewiczem", tak jak kiedyś miało to miejsce.',
+			todo: 'Oprócz zakładania kolejnych drużyn sportowych w naszej szkole, planuję organizację zawodów z najpopularniejszych sportów. Chciałbym, aby przynajmniej niektóre z nich, obejmowały nie tylko naszą szkołę. Chciałbym wrócić do turniejów np. z "Norwidem" czy "Sienkiewiczem", tak jak kiedyś miało to miejsce.',
 			currently:
-				"Aktualnie w naszej szkoły działanie rozpoczyna drużyna piłki ręcznej. Jestem w trakcie rozmów z wuefistami na temat zakładania SKS oraz turniejów szkolnych czy międzyszkolnych.",
+				"Aktualnie w naszej szkole działanie rozpoczyna drużyna piłki ręcznej. Jestem w trakcie rozmów z wuefistami na temat zakładania SKS-ów oraz turniejów szkolnych czy międzyszkolnych.",
 		},
 	];
 
