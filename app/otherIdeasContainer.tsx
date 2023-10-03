@@ -73,7 +73,8 @@ export default function OtherIdeasContainer() {
 		{
 			title: "Wykorzystanie działki w olszytnie",
 			icon: faTent,
-			// content: "Nasza szkoła jest właścicielem działki w Olszytnie, i niestety aktualnie ",
+			content:
+				"Nasza szkoła jest właścicielem działki w Olsztynie, niestety obecnie nie jest ona wykorzystywana. Chcemy maksymalnie wykorzystać potencjał tego miejsca. Planujemy organizację wyjazdów, spotkań oraz różnego rodzaju biwaków, takich jak biwaki harcerskie. W miarę możliwości planujemy również organizować integracje klasowe i pikniki w tym miejscu.",
 		},
 		{
 			title: "Dystrybutory z wodą",
