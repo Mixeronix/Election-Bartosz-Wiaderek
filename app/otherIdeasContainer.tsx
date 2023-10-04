@@ -10,6 +10,7 @@ import {
 	faHandshake,
 	faIcons,
 	faListCheck,
+	faPizzaSlice,
 	faTent,
 	faTshirt,
 	faTv,
@@ -53,6 +54,12 @@ export default function OtherIdeasContainer() {
 			icon: faIcons,
 		},
 		{
+			title: "Pizza Friday",
+			icon: faPizzaSlice,
+			content:
+				"Pizza Friday będzie eventem, który będzie odbywał się co miesiąc. Pomysł polega na tym, że raz w miesiącu na świetlicy szkolnej będzie można zakupić pizze (na kawałki). W między czasie będą się odbywały mniejsze wydarzenia. W tym właśnie czasie chcę aby odbywały się koncerty, występy naszych uczniów czy pokazy. Pierwszy Pizza friday już niedlugo!",
+		},
+		{
 			title: "Wydarzenia dla absolwentów",
 			icon: faGraduationCap,
 		},
@@ -71,7 +78,7 @@ export default function OtherIdeasContainer() {
 			icon: faCouch,
 		},
 		{
-			title: "Wykorzystanie działki w olszytnie",
+			title: "Wykorzystanie działki w Olsztynie",
 			icon: faTent,
 			content:
 				"Nasza szkoła jest właścicielem działki w Olsztynie, niestety obecnie nie jest ona wykorzystywana. Chcemy maksymalnie wykorzystać potencjał tego miejsca. Planujemy organizację wyjazdów, spotkań oraz różnego rodzaju biwaków, takich jak biwaki harcerskie. W miarę możliwości planujemy również organizować integracje klasowe i pikniki w tym miejscu.",
