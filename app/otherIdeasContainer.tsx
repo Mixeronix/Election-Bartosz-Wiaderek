@@ -57,7 +57,7 @@ export default function OtherIdeasContainer() {
 			title: "Pizza Friday",
 			icon: faPizzaSlice,
 			content:
-				"Pizza Friday będzie eventem, który będzie odbywał się co miesiąc. Pomysł polega na tym, że raz w miesiącu na świetlicy szkolnej będzie można zakupić pizze (na kawałki). W między czasie będą się odbywały mniejsze wydarzenia. W tym właśnie czasie chcę aby odbywały się koncerty, występy naszych uczniów czy pokazy. Pierwszy Pizza friday już niedlugo!",
+				"Pizza Friday będzie wydarzeniem, które będzie odbywać się co miesiąc. Pomysł polega na tym, że raz w miesiącu w świetlicy szkolnej będzie można zakupić pizzę (na kawałki). W międzyczasie będą odbywały się mniejsze wydarzenia. W tym właśnie czasie chcemy, aby miały miejsce koncerty, występy naszych uczniów oraz pokazy (pomysł podsunęli Olek Gałka i Oskar Lewicki). Pierwszy Pizza Friday już niedługo!",
 		},
 		{
 			title: "Wydarzenia dla absolwentów",
