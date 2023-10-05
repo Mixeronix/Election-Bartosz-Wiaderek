@@ -11,6 +11,7 @@ import {
 	faIcons,
 	faListCheck,
 	faPizzaSlice,
+	faSeedling,
 	faTent,
 	faTshirt,
 	faTv,
@@ -92,10 +93,14 @@ export default function OtherIdeasContainer() {
 			icon: faBottleWater,
 		},
 		{
-			title: "Współpraca z Politechniką Częstochowską",
+			title: "Współpraca z uczelniami wyższymi",
 			icon: faHandshake,
 			content:
-				"Nie wszyscy nawet wiedzą, że coś takiego istnieje! Od kilku lat nasza szkoła ma podpisaną współpracę z Politechniką Częstochowską, niestety zupełnie z tego nie korzystamy. Moim pomysłem jest tę współpracę nieco ożywić. W ramach niej możemy uczestniczyć w różnego rodzaju projektach, wykładach czy lekcjach pokazowych. Dzięki tej współpracy będzie możliwe wykorzystanie sali sportowej Politechniki podczas wydarzeń sportowych w naszej szkole (będzie to szczególnie przydatne podczas międzyszkolnych zawodów, które planujemy zorganizować).",
+				"Nie wszyscy nawet wiedzą, że coś takiego istnieje! Od kilku lat nasza szkoła ma podpisaną współpracę z uczelniami, niestety zupełnie z tego nie korzystamy. Moim pomysłem jest tę współpracę nieco ożywić. W ramach niej możemy uczestniczyć w różnego rodzaju projektach, wykładach czy lekcjach pokazowych. Dzięki tej współpracy będzie możliwe wykorzystanie sali sportowej podczas wydarzeń sportowych w naszej szkole (będzie to szczególnie przydatne podczas międzyszkolnych zawodów, które planujemy zorganizować).",
+		},
+		{
+			title: "Zazielenienie szkoły",
+			icon: faSeedling,
 		},
 		{
 			title: "Markizy na patio",

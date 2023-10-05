@@ -61,7 +61,7 @@ export default function IdeasContainer() {
 			currently:
 				"Aktualnie trwa poszukiwanie osób chętnych do szkolnej grupy ratowniczej. Szukam również osób chętnych do poprowadzenia szkolnej drużyny harcerskiej. Staram się również przyśpieszyć rozwój szkolnego zespołu muzycznego.",
 			todo: 'Planuję również założenie grupy tanecznej, drużyny harcerskiej, koła teatralnego, koła szachowego, SKS-ów (o czym więcej w "Drużyny sportowe oraz zawody") czy kółek naukowych. Chcę również rozwinąć działanie Kółka Szachowego oraz stworzyć szkolny ranking ELO.',
-			done: "Udało mi się rozpocząć działalność Szkolnej Grupy Ratowniczej, chwilowo jesteśmy na etapie poszukiwania uczestników. Jeżeli jesteś chętny/a, zapraszamy do mnie lub do Pani Katarzyny Gołębiowskiej.",
+			done: "Udało mi się rozpocząć działalność Szkolnej Grupy Ratowniczej, chwilowo jesteśmy na etapie poszukiwania uczestników. Jeżeli jesteś chętny/a, zapraszamy do mnie lub do Pani Katarzyny Gołębiowskiej. Ruszyła również szkolna drużyna koszykarska! Wszystkich chętnych zapraszamy do Profesora Krzysztofa Parzonki.",
 		},
 		{
 			title: "Modernizacja mediów szkolnych",
