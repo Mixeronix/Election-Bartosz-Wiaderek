@@ -64,10 +64,10 @@ export default function OtherIdeasContainer() {
 			icon: faGraduationCap,
 		},
 		{
-			title: "Kapsuła czasu",
+			title: "Kapsuła marzeń",
 			icon: faClock,
 			content:
-				"Aktualnie liceum trwa 4 lata, przez ten czas wiele się zmienia. Z tego powodu chciałbym wprowadzić nową tradycję do naszej szkoły. Chciałbym, aby na początku nauki każda klasa przygotowała rzeczy dla nich ważne i napisała list. Wszystkie te rzeczy zostaną umieszczone w jednej dużej kapsule czasu. Pod koniec nauki, w klasie czwartej, kapsuła zostanie otwarta, a wszystkie rzeczy w niej zawarte wrócą do klas. Wydaje mi się, że taki powrót do początków będzie fantastycznym zakończeniem nauki w liceum!",
+				"Aktualnie liceum trwa 4 lata, przez ten czas wiele się zmienia. Z tego powodu chciałbym wprowadzić nową tradycję do naszej szkoły. Chciałbym, aby na początku nauki wszystkie osoby z klas pierwszych napisały list do przyszłych siebie. Listy będą zbierane i zamykane w kapsule. Pod koniec nauki, w klasie czwartej, kapsuła zostanie otwarta. Wydaje mi się, że taki powrót do początków będzie fantastycznym zakończeniem nauki w liceum!",
 		},
 		{
 			title: "Pufy na stołówce",

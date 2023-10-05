@@ -28,8 +28,8 @@ export default function Home() {
 		<main className="flex flex-col gap-y-10 overflow-x-clip">
 			<div className="bg-White flex flex-col gap-y-10 md:gap-y-16 lg:gap-y-20 md:py-40 py-20 sm:py-32 xl:py-60 2xl:py-72 items-center gap-x-12 justify-center">
 				<h1 className={`px-2 sm:px-4 md:px-7 lg:text-7xl text-xl xs:text-2xl 2xl:text-8xl sm:text-4xl md:text-5xl text-center text-Black ${robotoFont700.className}`}>
-					Jestem <span className={`text-LightYellow font-black ${robotoFont900.className}`}>Bartosz Wiaderek</span>
-					<br />i <span className={`text-Pink font-black ${robotoFont900.className}`}>kandyduje</span> na przewodniczącego
+					Jestem <span className={`text-Pink font-black ${robotoFont900.className}`}>Bartosz Wiaderek</span>
+					<br />i <span className={`text-LightYellow font-black ${robotoFont900.className}`}>kandyduję</span> na przewodniczącego
 				</h1>
 
 				<div className="flex items-center px-3 xs:px-5 sm:px-7 md:px-9 lg:px-12 lg:justify-center flex-col-reverse gap-y-7 gap-x-10 xl:gap-x-12 lg:flex-row relative h-fit justify-start">
