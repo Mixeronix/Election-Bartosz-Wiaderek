@@ -10,6 +10,7 @@ import {
 	faHandshake,
 	faIcons,
 	faListCheck,
+	faMoneyBill,
 	faPizzaSlice,
 	faSeedling,
 	faTent,
@@ -97,6 +98,10 @@ export default function OtherIdeasContainer() {
 			icon: faHandshake,
 			content:
 				"Nie wszyscy nawet wiedzą, że coś takiego istnieje! Od kilku lat nasza szkoła ma podpisaną współpracę z uczelniami, niestety zupełnie z tego nie korzystamy. Moim pomysłem jest tę współpracę nieco ożywić. W ramach niej możemy uczestniczyć w różnego rodzaju projektach, wykładach czy lekcjach pokazowych. Dzięki tej współpracy będzie możliwe wykorzystanie sali sportowej podczas wydarzeń sportowych w naszej szkole (będzie to szczególnie przydatne podczas międzyszkolnych zawodów, które planujemy zorganizować).",
+		},
+		{
+			title: "Kiermasze - zbiórki pieniędzy",
+			icon: faMoneyBill,
 		},
 		{
 			title: "Zazielenienie szkoły",
