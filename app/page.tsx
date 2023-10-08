@@ -2,6 +2,7 @@ import { Noto_Sans_Javanese, Roboto } from "next/font/google";
 import Image from "next/image";
 import IdeasContainer from "./ideasContainer";
 import OtherIdeasContainer from "./otherIdeasContainer";
+import PeopleContainer from "./peopleContainer";
 
 const robotoFont900 = Roboto({
 	weight: "900",
@@ -89,6 +90,28 @@ export default function Home() {
 
 					<OtherIdeasContainer />
 				</div>
+			</div>
+
+			<div className="flex flex-col w-full">
+				<Image src="/wave-3.svg" width="1920" height="100" alt="" className="object-contain w-full scale-x-105" />
+				<div className="bg-LightBlue py-14 flex flex-col gap-y-4 lg:gap-y-5 xl:gap-y-9 2xl:gap-y-12 items-center justify-center w-full px-6 xs:px-8 sm:px-10 md:px-12 lg:px-16">
+					<div className="flex flex-col items-center gap-y-1.5 text-center">
+						<h1 className={`text-Red lg:text-3xl xl:text-4xl text-lg xs:text-xl sm:text-2xl md:text-3xl text-Black ${robotoFont900.className}`}>Mój skład</h1>
+						<p
+							className={`xl:text-xl text-xs xs:text-sm sm:text-base max-w-lg md:text-lg lg:text-xl text-center md:max-w-xl text-Gray ${robotoFont500.className}`}
+						>
+							Niestety, nie wszystko da się zrobić samemu. Mam ogromne szczęście, że otaczają mnie wspaniali ludzie. Oto wszyscy, którzy pomagają osiągać
+							niezwykłe cele:
+						</p>
+					</div>
+
+					<PeopleContainer />
+
+					<p className={`xl:text-lg text-xs text-[0.6rem] sm:text-sm md:text-lg text-center text-Gray mt-8 ${robotoFont500.className}`}>
+						Oczywiście to nie wszystkie osoby, jest was tak wielu. <br /> Dziękuje wszystkim za rady, rozmowy, pomysły!
+					</p>
+				</div>
+				<Image src="/wave-4.svg" width="1920" height="100" alt="" className="object-contain w-full scale-x-105" />
 			</div>
 		</main>
 	);
