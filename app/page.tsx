@@ -53,11 +53,11 @@ export default function Home() {
 					<p
 						className={`xl:text-xl text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl text-LightBlue leading-relaxed max-w-sm xs:max-w-lg md:max-w-screen-md z-10 px-6 xs:px-8 sm:px-10 md:px-12 lg:px-16 ${notoFont500.className}`}
 					>
-						Cześć, nazywam się Bartek, jestem w klasie 2C (matematyka i fizyka).
+						Cześć, nazywam się Bartek, jestem w klasie 2C (mat-fiz).
 						<br />
 						Na co dzień dużo czasu poświęcam różnym rodzajom sportu oraz programowaniu (w końcu to dzięki temu powstała ta strona 😅).
-						<br /> <br /> W szkole najbardziej lubię, gdy coś się dzieje, dlatego zacząłem angażować się w życie szkoły i organizowanie wydarzeń. Teraz nie
-						wyobrażam sobie, że mogłoby być inaczej, życie bez aktywności szkolnej.
+						<br /> <br /> W szkole najbardziej lubię, gdy coś się dzieje, dlatego zacząłem angażować się w życie szkoły i organizowanie wydarzeń. Teraz nie mogę
+						wyobrazić sobie życia bez aktywności szkolnej.
 					</p>
 				</div>
 				<Image src="/wave-2.svg" width="1920" height="100" alt="" className="object-contain w-full scale-x-105" />
