@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Bartosz Wiaderek",
-	description: "Bartosz Wiaderek portfolio",
+	description: "Bartosz Wiaderek",
 	verification: {
 		google: "mkpkk0-v-7pa07PdOkNYpp4mJJfTaaNzN8TV3hzt6fI",
 	},

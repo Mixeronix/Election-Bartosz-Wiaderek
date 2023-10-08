@@ -46,7 +46,7 @@ export default function IdeasContainer() {
 		{
 			title: "Regularne wydarzenia i dyskoteki",
 			content:
-				"Codzienność w szkole jest dość nudna, ale jak na wszystko, na to też jest sposób. Chcę regularnie organizować mniejsze wydarzenia, takie jak 'Dzień bez placówek', 'Dzień Olewania Systemu' czy 'Dzień w Piżamach'. Planuję również organizację 'Festynu w Traugucie', festiwalu 'Trauwood', rajdów rowerowych oraz w miarę możliwości regularnych wieczorów filmowych. Będę dążył do tego, aby wydarzenia tego typu odbywały się jak najczęściej!",
+				"Codzienność w szkole jest dość nudna, ale jak na wszystko, na to też jest sposób. Chcę regularnie organizować mniejsze wydarzenia, takie jak 'Dzień bez plecaków', 'Dzień Olewania Systemu' czy 'Dzień w Piżamach'. Planuję również organizację 'Festynu w Traugucie', festiwalu 'Trauwood', rajdów rowerowych oraz w miarę możliwości regularnych wieczorów filmowych. Będę dążył do tego, aby wydarzenia tego typu odbywały się jak najczęściej!",
 			icon: faCalendar,
 			done: "Na chwilę obecną zorganizowaliśmy 'Dzień bez samochodu' oraz wesprzeliśmy organizację kocenia dla naszych pierwszaków.",
 			todo: "Moim celem jest organizacja jakiegoś mniejszego wydarzenia (właśnie tego typu), raz na około 2 tygodnie. Planuję również, aby większe wydarzenia czy dyskoteki odbywały się raz w miesiącu, oczywiście o ile to możliwe.",
@@ -64,7 +64,7 @@ export default function IdeasContainer() {
 			done: "Udało mi się rozpocząć działalność Szkolnej Grupy Ratowniczej, chwilowo jesteśmy na etapie poszukiwania uczestników. Jeżeli jesteś chętny/a, zapraszamy do mnie lub do Pani Katarzyny Gołębiowskiej. Ruszyła również szkolna drużyna koszykarska! Wszystkich chętnych zapraszamy do Profesora Krzysztofa Parzonki.",
 		},
 		{
-			title: "Modernizacja mediów szkolnych",
+			title: "Unowocześnienie mediów szkolnych",
 			content:
 				"Na każdym kroku można zauważyć, że nasza szkoła staje się coraz bardziej nowoczesna. Wiele się u nas zmienia. Mimo to media, logo, grafiki pozostają niestety takie same. Uważam, że fajnie byłoby zostawić przeszłość w tyle i zacząć od nowa. Chcę zmodernizować rzeczy takie jak szkolna strona internetowa, logo szkoły, grafiki w mediach społecznościowych czy na plakatach. Te wszystkie małe rzeczy sprawią, że nasza szkoła stanie się jeszcze nowocześniejsza!",
 			icon: faMobileScreen,
