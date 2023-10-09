@@ -72,9 +72,9 @@ export default function OtherIdeasContainer() {
 				"Aktualnie liceum trwa 4 lata, przez ten czas wiele się zmienia. Z tego powodu chciałbym wprowadzić nową tradycję do naszej szkoły. Chciałbym, aby na początku nauki wszystkie osoby z klas pierwszych napisały list do przyszłych siebie. Listy będą zbierane i zamykane w kapsule. Pod koniec nauki, w klasie czwartej, kapsuła zostanie otwarta. Wydaje mi się, że taki powrót do początków będzie fantastycznym zakończeniem nauki w liceum!",
 		},
 		{
-			title: "Pufy na stołówce",
+			title: "Pufy na świetlicy",
 			content:
-				"Pufy na stołówce to pomysł, który nie wymaga przedstawiania. Wielu z nas już o nim słyszało wielokrotnie. Pufy w stołówce to rzecz, która od zawsze powinna się tam znajdować. Mam dla wszystkich dobrą wiadomość - pufy są już zamówione i wkrótce do nas trafią!",
+				"Pufy na świetlicy to pomysł, który nie wymaga przedstawiania. Wielu z nas już o nim słyszało wielokrotnie. Pufy w stołówce to rzecz, która od zawsze powinna się tam znajdować. Mam dla wszystkich dobrą wiadomość - pufy są już zamówione i wkrótce do nas trafią!",
 			done: "Pufy zostały już zamówione i są w drodze! Kilka dni temu dyrektor zatwierdził projekt, można powiedzieć, że wszystko jest już gotowe!",
 			todo: "Teraz pozostaje nam tylko cierpliwie czekać, a niedługo będziemy mogli je zobaczyć na świetlicy!",
 			icon: faCouch,

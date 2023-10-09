@@ -61,7 +61,11 @@ export default function CalendarContainer() {
 		},
 		{
 			name: "Międzynarodowy dzień przytulania",
-			date: new Date("2024-1-21"),
+			date: new Date("2024-1-22"),
+		},
+		{
+			name: "Turniej koszykówki 3:3",
+			date: new Date("2024-1-26"),
 		},
 		{
 			name: "Dyskoteka Mikołajkowa",
@@ -72,20 +76,64 @@ export default function CalendarContainer() {
 			date: new Date("2024-2-2"),
 		},
 		{
+			name: "Dzień Grilla",
+			date: new Date("2024-5-2"),
+		},
+		{
 			name: "Karaoke",
-			date: new Date("2024-2-12"),
+			date: new Date("2024-3-1"),
+		},
+		{
+			name: "Karaoke",
+			date: new Date("2024-4-12"),
+		},
+		{
+			name: "Międzynarodowy dzień herbaty",
+			date: new Date("2024-5-21"),
+		},
+		{
+			name: "Tłusty czwartek",
+			date: new Date("2024-2-15"),
 		},
 		{
 			name: "Turniej Just Dance",
 			date: new Date("2024-4-29"),
 		},
 		{
+			name: "Międzynarodowy dzień peruki",
+			date: new Date("2024-3-11"),
+		},
+		{
+			name: "Dzień rowerowy",
+			date: new Date("2024-4-19"),
+		},
+		{
 			name: "Dyskoteka - Retro Rock 'n' Roll: ",
-			date: new Date("2024-2-23"),
+			date: new Date("2024-3-22"),
+		},
+		{
+			name: "Dyskoteka Walentynkowa",
+			date: new Date("2024-2-16"),
 		},
 		{
 			name: "Dzien Spaghetti",
 			date: new Date("2024-1-4"),
+		},
+		{
+			name: "Dyskoteka Prima Aprilis",
+			date: new Date("2024-4-5"),
+		},
+		{
+			name: "Festyn szkolny",
+			date: new Date("2024-5-31"),
+		},
+		{
+			name: "Dyskoteka Black and White",
+			date: new Date("2024-5-10"),
+		},
+		{
+			name: "Dyskoteka w stylu lata",
+			date: new Date("2024-6-7"),
 		},
 	];
 	const months = ["styczeń", "luty", "marzec", "kwiecień", "maj", "czerwiec", "lipiec", "sierpień", "wrzesień", "październik", "listopad", "grudzień"];
