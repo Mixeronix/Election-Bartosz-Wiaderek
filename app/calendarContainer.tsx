@@ -132,35 +132,40 @@ export default function CalendarContainer() {
 			date: new Date("2024-5-10"),
 		},
 		{
-			name: "Dyskoteka w stylu lata",
+			name: "Dyskoteka letnia",
 			date: new Date("2024-6-7"),
 		},
 	];
 	const months = ["styczeń", "luty", "marzec", "kwiecień", "maj", "czerwiec", "lipiec", "sierpień", "wrzesień", "październik", "listopad", "grudzień"];
 
 	return (
-		<div className="flex flex-col gap-y-8 md:gap-y-12 lg:gap-y-16 sm:gap-y-20 w-full items-end max-w-screen-lg py-10 relative">
+		<div className="flex flex-col w-full items-end max-w-screen-lg py-2 relative">
 			{events
 				.sort(function (a, b) {
 					return a.date.getTime() - b.date.getTime();
 				})
 				.map((event, i) => (
-					<div className="w-full flex flex-row-reverse items-center gap-x-3" key={i}>
-						<div className="w-6 h-6 z-10 p-1 -m-1 rounded-full bg-Pink/60">
-							<div className="w-4 h-4 rounded-full bg-Purple/90"> </div>
+					<div
+						className="cursor-pointer w-full flex flex-row-reverse items-center gap-x-3 hover:gap-x-6 transition-all duration-200 group py-4 md:py-6 lg:py-8 sm:py-10"
+						key={i}
+					>
+						<div className="transition-all duration-200 w-6 h-6 z-10 p-1 -m-[5px] rounded-full bg-Pink/60 group-hover:w-8 group-hover:h-8 group-hover:-m-[9px] group-hover:p-1.5">
+							<div className="transition-all duration-200 w-4 h-4 group-hover:w-5 group-hover:h-5 rounded-full bg-Purple/90"> </div>
 						</div>
 						<p className={`text-xs sm:text-base md:text-lg xs:text-sm whitespace-nowrap ${robotoFont500.className}`}>
 							{event.date.getDate()} {months[event.date.getMonth()]} {event.date.getFullYear()}
 						</p>
 
-						<h2 className={`text-base sm:text-xl text-right md:text-2xl xs:text-lg me-2 xs:me-5 sm:me-10 md:me-16 lg:me-20 ${robotoFont700.className}`}>
+						<h2
+							className={`text-base sm:text-xl text-right md:text-2xl xs:text-lg me-2 xs:me-5 sm:me-10 md:me-16 lg:me-20 group-hover:text-LightYellow transition-all duration-200 ${robotoFont700.className}`}
+						>
 							{event.name}
 						</h2>
 					</div>
 				))}
 
-			<div className="absolute top-0 right-0 h-full w-4 p-1.5 bg-Gray/50 rounded-xl">
-				<div className="h-full w-1 bg-Black rounded-lg"></div>
+			<div className="absolute top-0 right-0 h-full w-3.5 p-1 bg-LightBlue/80 rounded-xl">
+				<div className="h-full w-1.5 bg-Blue rounded-lg"></div>
 			</div>
 		</div>
 	);
