@@ -26,6 +26,7 @@ export default function PeopleContainer() {
 		{ name: "Krzysztof Dziubiński", class: "2c" },
 		{ name: "Błażej Kołodziejski", class: "2c" },
 		{ name: "Olek Gałka", class: "2c" },
+		{ name: "Staś Rogowski", class: "2c" },
 		{ name: "Oskar Lewicki", class: "2c" },
 		{ name: "Tymon Drabiński", class: "2c" },
 		{ name: "Paulina Podsiadlik", class: "2e" },

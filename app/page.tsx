@@ -3,6 +3,7 @@ import Image from "next/image";
 import IdeasContainer from "./ideasContainer";
 import OtherIdeasContainer from "./otherIdeasContainer";
 import PeopleContainer from "./peopleContainer";
+import CalendarContainer from "./calendarContainer";
 
 const robotoFont900 = Roboto({
 	weight: "900",
@@ -112,6 +113,17 @@ export default function Home() {
 					</p>
 				</div>
 				<Image src="/wave-4.svg" width="1920" height="100" alt="" className="object-contain w-full scale-x-105" />
+			</div>
+
+			<div id="kalendarz" className="bg-White w-full flex flex-col items-center py-10 md:py-16 lg:py-20 gap-y-16 sm:gap-y-20 md:gap-y-40 px-3 sm:px-5 md:px-8 lg:px-12">
+				<div className="flex flex-col items-center gap-y-1.5 text-center">
+					<h1 className={`text-Red lg:text-3xl xl:text-4xl text-lg xs:text-xl sm:text-2xl md:text-3xl text-Black ${robotoFont900.className}`}>Kalendarz wydarzeń</h1>
+					<p className={`xl:text-xl text-xs xs:text-sm sm:text-base max-w-lg md:text-lg lg:text-xl text-center md:max-w-xl text-Gray ${robotoFont500.className}`}>
+						Poniżej widoczna jest lista głównych wydarzeń, które planuje rozganizować w tym roku. (Lista oczywiście może ulec zmianą)
+					</p>
+				</div>
+
+				<CalendarContainer />
 			</div>
 		</main>
 	);
