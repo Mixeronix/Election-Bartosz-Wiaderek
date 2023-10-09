@@ -33,15 +33,15 @@ export default function CalendarContainer() {
 		},
 		{
 			name: "Dzień postaci z bajek",
-			date: new Date("2023-11-5"),
+			date: new Date("2023-11-6"),
 		},
 		{
 			name: "Światowy dzień dobroci",
 			date: new Date("2023-11-13"),
 		},
 		{
-			name: "Dzień kredki",
-			date: new Date("2023-11-22"),
+			name: "Dyskoteka w stylu hawaii",
+			date: new Date("2023-11-3"),
 		},
 		{
 			name: "Dzień pluszowego misia",
@@ -56,12 +56,36 @@ export default function CalendarContainer() {
 			date: new Date("2023-12-6"),
 		},
 		{
+			name: "Mikołajkowy turniej piłki nożnej",
+			date: new Date("2023-12-15"),
+		},
+		{
 			name: "Międzynarodowy dzień przytulania",
 			date: new Date("2024-1-21"),
 		},
 		{
 			name: "Dyskoteka Mikołajkowa",
 			date: new Date("2023-12-8"),
+		},
+		{
+			name: "Dzień naleśnika",
+			date: new Date("2024-2-2"),
+		},
+		{
+			name: "Karaoke",
+			date: new Date("2024-2-12"),
+		},
+		{
+			name: "Turniej Just Dance",
+			date: new Date("2024-4-29"),
+		},
+		{
+			name: "Dyskoteka - Retro Rock 'n' Roll: ",
+			date: new Date("2024-2-23"),
+		},
+		{
+			name: "Dzien Spaghetti",
+			date: new Date("2024-1-4"),
 		},
 	];
 	const months = ["styczeń", "luty", "marzec", "kwiecień", "maj", "czerwiec", "lipiec", "sierpień", "wrzesień", "październik", "listopad", "grudzień"];
@@ -77,11 +101,13 @@ export default function CalendarContainer() {
 						<div className="w-6 h-6 z-10 p-1 -m-1 rounded-full bg-Pink/60">
 							<div className="w-4 h-4 rounded-full bg-Purple/90"> </div>
 						</div>
-						<p className={`text-xs sm:text-base md:text-lg xs:text-sm ${robotoFont500.className}`}>
+						<p className={`text-xs sm:text-base md:text-lg xs:text-sm whitespace-nowrap ${robotoFont500.className}`}>
 							{event.date.getDate()} {months[event.date.getMonth()]} {event.date.getFullYear()}
 						</p>
 
-						<h2 className={`text-base sm:text-xl md:text-2xl xs:text-lg me-5 sm:me-10 md:me-16 lg:me-20 ${robotoFont700.className}`}>{event.name}</h2>
+						<h2 className={`text-base sm:text-xl text-right md:text-2xl xs:text-lg me-2 xs:me-5 sm:me-10 md:me-16 lg:me-20 ${robotoFont700.className}`}>
+							{event.name}
+						</h2>
 					</div>
 				))}
 

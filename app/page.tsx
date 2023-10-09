@@ -4,6 +4,7 @@ import IdeasContainer from "./ideasContainer";
 import OtherIdeasContainer from "./otherIdeasContainer";
 import PeopleContainer from "./peopleContainer";
 import CalendarContainer from "./calendarContainer";
+import Link from "next/link";
 
 const robotoFont900 = Roboto({
 	weight: "900",
@@ -39,6 +40,14 @@ export default function Home() {
 						className={`text-Black max-w-md 2xl:text-4xl 2xl:max-w-lg text-center lg:text-right text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl ${robotoFont700.className}`}
 					>
 						"Moim głównym celem jest sprawić, aby każdy czuł się jak uczeń najlepszego liceum w Częstochowie!"
+						<br />
+						<br />
+						<Link
+							href={"#kalendarz"}
+							className={`w-fit px-5 py-1.5 border-2 text-sx xs:text-base md:text-lg border-Purple rounded-3xl transition-all text-Purple hover:text-Black ${robotoFont700.className}`}
+						>
+							Kalendarz wydarzeń
+						</Link>
 					</p>
 					<Image src="/me.png" width="1000" height="1000" alt="" className="w-2/3 md:w-1/2 xl:w-2/5" />
 				</div>
@@ -115,7 +124,7 @@ export default function Home() {
 				<Image src="/wave-4.svg" width="1920" height="100" alt="" className="object-contain w-full scale-x-105" />
 			</div>
 
-			<div id="kalendarz" className="bg-White w-full flex flex-col items-center py-10 md:py-16 lg:py-20 gap-y-16 sm:gap-y-20 md:gap-y-40 px-3 sm:px-5 md:px-8 lg:px-12">
+			<div id="kalendarz" className="bg-White w-full flex flex-col items-center py-10 md:py-16 lg:py-20 gap-y-10 sm:gap-y-16 md:gap-y-32 px-3 sm:px-5 md:px-8 lg:px-12">
 				<div className="flex flex-col items-center gap-y-1.5 text-center">
 					<h1 className={`text-Red lg:text-3xl xl:text-4xl text-lg xs:text-xl sm:text-2xl md:text-3xl text-Black ${robotoFont900.className}`}>Kalendarz wydarzeń</h1>
 					<p className={`xl:text-xl text-xs xs:text-sm sm:text-base max-w-lg md:text-lg lg:text-xl text-center md:max-w-xl text-Gray ${robotoFont500.className}`}>
