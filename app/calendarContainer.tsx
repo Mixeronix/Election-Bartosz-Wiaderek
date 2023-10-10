@@ -64,7 +64,7 @@ export default function CalendarContainer() {
 			date: new Date("2024-1-22"),
 		},
 		{
-			name: "Turniej koszykówki 3:3",
+			name: "Dzień patrona",
 			date: new Date("2024-1-26"),
 		},
 		{
@@ -94,6 +94,10 @@ export default function CalendarContainer() {
 		{
 			name: "Tłusty czwartek",
 			date: new Date("2024-2-15"),
+		},
+		{
+			name: "Turniej koszykówki 3:3",
+			date: new Date("2024-2-23"),
 		},
 		{
 			name: "Turniej Just Dance",

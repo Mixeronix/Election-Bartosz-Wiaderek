@@ -48,7 +48,7 @@ export default function IdeasContainer() {
 			content:
 				"Codzienność w szkole jest dość nudna, ale jak na wszystko, na to też jest sposób. Chcę regularnie organizować mniejsze wydarzenia, takie jak 'Dzień bez plecaków', 'Dzień Olewania Systemu' czy 'Dzień w Piżamach'. Planuję również organizację 'Festynu w Traugucie', festiwalu 'Trauwood', rajdów rowerowych oraz w miarę możliwości regularnych wieczorów filmowych. Będę dążył do tego, aby wydarzenia tego typu odbywały się jak najczęściej!",
 			icon: faCalendar,
-			done: "Na chwilę obecną zorganizowaliśmy 'Dzień bez samochodu' oraz wesprzeliśmy organizację kocenia dla naszych pierwszaków.",
+			done: "Na chwilę obecną zorganizowaliśmy 'Dzień bez samochodu' oraz wsparliśmy organizację kocenia dla naszych pierwszaków.",
 			todo: "Moim celem jest organizacja jakiegoś mniejszego wydarzenia (właśnie tego typu), raz na około 2 tygodnie. Planuję również, aby większe wydarzenia czy dyskoteki odbywały się raz w miesiącu, oczywiście o ile to możliwe.",
 			currently:
 				"Aktualnie jestem w trakcie organizowania wieczoru filmowego, który (na razie) ma się odbyć 20 października. W planach jest też kilka innych wydarzeń i oczywiście coroczny Rajd Traubeanów. Jeżeli macie jakiekolwiek pomysły, śmiało podchodźcie. Na pewno uda się je zrealizować!",
@@ -88,7 +88,7 @@ export default function IdeasContainer() {
 			icon: faBaseball,
 			todo: 'Oprócz zakładania kolejnych drużyn sportowych w naszej szkole, planuję organizację zawodów z najpopularniejszych sportów. Chciałbym, aby przynajmniej niektóre z nich, obejmowały nie tylko naszą szkołę. Chciałbym wrócić do turniejów np. z "Norwidem" czy "Sienkiewiczem", tak jak kiedyś miało to miejsce.',
 			currently:
-				"Aktualnie w naszej szkole działanie rozpoczyna drużyna piłki ręcznej. Jestem w trakcie rozmów z wuefistami na temat zakładania SKS-ów oraz turniejów szkolnych czy międzyszkolnych.",
+				"Aktualnie w naszej szkole działanie rozpoczyna drużyna piłki ręcznej. Jestem w trakcie rozmów z wuefistami na temat zakładania SKS-ów oraz turniejów szkolnych czy międzyszkolnych. Ruszyła również szkolna drużyna koszykarska! Wszystkich chętnych zapraszamy do Profesora Krzysztofa Parzonki.",
 		},
 	];
 
